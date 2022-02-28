@@ -52,24 +52,31 @@ $ npm run start:prod
 $ npm i @nestjs/graphql @nestjs/apollo graphql apollo-server-express
 ```
 
-## ts-node
+## Install Pacotes
 
 ```bash
 $ npm i ts-node
 $ npm i ts-morph
 ```
 
-## resource
+## Resource
 
 ```bash
 $ nest g resource clientes --no-specs
 ```
 
-## generator
+## Generator
 
 ```bash
 $ npm run gen-typings
 ```
+
+## Prisma
+
+```bash
+$ npx prisma init
+
+$ npx prisma migrate dev --name init --preview-feature
 
 ## Support
 
@@ -84,3 +91,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+```
